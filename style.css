@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: none;
+  }
+  #main {
+    position: relative;
+    overflow: hidden;
+  
+  }
+  #page1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+  }
+  #nav {
+    font-size: 20px;
+    padding: 0 80px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #nav #kunal {
+    color: #fff;
+  }
+     #nav2
+  {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    color: #47444b;
+  }
+  #nav span {
+    color: #47444b;
+  }
+  #left {
+    position: relative;
+    height: 89%;
+    border-radius: 30px;
+    width: 70%;
+    background-image: url(https://necatikcl.dev/images/card-hello-background.png);
+    background-position: center;
+    background-size: cover;
+  }
+  #right {
+    background-color: #ffd951;
+    height: 89%;
+    border-radius: 30px;
+    width: 35%;
+  }
+  #center {
+    height: 76.5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 60px;
+  }
+  #profile #box {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  #profile #box img {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+  }
+  #profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+  }
+  #nav3 {
+    padding: 0px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    border-radius: 25px;
+  }
+  #profile span {
+    color: #47444b;
+    font-size: 17px;
+  }
+  #nav3 #icon {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+    color: #fff;
+  }
+  #left h1 {
+    font-size: 4vw;
+    padding: 30px 40px;
+    color: #fff;
+  }
+  #left p {
+    font-size: 1.5vw;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    padding: 0 40px;
+  }
+  #right img {
+    height: 100%;
+    width: 100%;
+  }
+  #page2 {
+    height: 100vh;
+    width: 100vw -6vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+  .left {
+    height: 98%;
+    width: 47%;
+    margin-left: 65px;
+  }
+  .right {
+    height: 98%;
+    width: 45%;
+    position: relative;
+  }
+  .left img {
+    height: 100%;
+    width: 100%;
+    border-radius: 35px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .right img {
+    height: 100%;
+    width: 100%;
+    border-radius: 35px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+  
+  }
+  #page3 {
+    height: 100vh;
+    width: 100vw - 6vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+  #page4 {
+    height: 100vh;
+    width: 100vw - 6vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+  #page5 {
+    height: 100vh;
+    width: 100vw - 6vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+  #bottom {
+    height: 75vh;
+    width: 100vw-6vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  #bleft {
+    height: 80%;
+    width: 65%;
+    background-color: white;
+    margin-left: 60px;
+    border-radius: 35px;
+    background-image: url(https://images.unsplash.com/photo-1509518408633-d42f618a2bdc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2lkdGglMjB3aXNlJTIwcGhvdG8lMjBibGFraXNzfGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+  }
+  #bright {
+    height: 80%;
+    width: 25%;
+    background-color: #f36e15;
+    border-radius: 35px;
+  }
+  #bleft img {
+    height: 100%;
+    width: 100%;
+  }
+  #bleft h6 {
+    color: #cdcbca;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+  #bleft h1 {
+    color: #d6cfce;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  #bleft p {
+    letter-spacing: 0.4px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 25px;
+    color: #6d696c;
+    padding-left: 30px;
+  }
+  #bright {
+    background-image: url(https://necatikcl.dev/images/card-contact-memoji.png);
+    background-position: end;
+    background-size: cover;
+  }
+  .left h3{
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    bottom: 14%;
+    font-size: 2.5vw;
+    font-weight: 400;
+    left: 9%;
+  }
+  .left span button{
+     padding: .3vh 1vw;
+     border-radius: 50px;
+     border:none;
+     font-size: 12px;
+     background-color: #ffffff23;
+    color: #fff;
+  }
+  .left p{
+    position: absolute;
+    z-index: 2; 
+    color: #fff;
+    bottom: 8%;
+    font-weight: 600;
+    left: 9%;
+  
+  }
+  .right h3{
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    bottom: 14%;
+    font-size: 2.5vw;
+    font-weight: 400;
+    left: 9%;
+  }
+  .right span button{
+     padding: .3vh 1vw;
+     border-radius: 50px;
+     border:none;
+     font-size: 12px;
+     background-color: #ffffff23;
+    color: #fff;
+  }
+  .right p{
+    position: absolute;
+    z-index: 2; 
+    color: #fff;
+    bottom: 8%;
+    font-weight: 600;
+    left: 9%;
+  }
+  .left .kunal{
+    color: black;
+  }
+  .right .kunal{
+    color: black;
+  }
+  #bright h2 {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  #bright p {
+    color: #fff;
+    font-size: 13px;
+    padding-top: 3px;
+    padding-left: 20px;
+  }
+  #bicon {
+    padding: 30px 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  #bicon i {
+    height: 70px;
+    width: 70px;
+    background-color: #cdcbca;
+    filter: blur(20%);
+    color: #fff;
+    font-size: 60px;
+    border: 1px solid #cdcbca;
+  }
+  #icon i {
+      font-size: 3vw;
+  }
